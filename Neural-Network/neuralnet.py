@@ -32,7 +32,7 @@ print('Outputs after training:')
 print(outputs)
 
 # the outputs are wrong because we have initialized the weights randomly
-# 
+# To get the right outputs , we need a training
 
 
 

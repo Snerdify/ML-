@@ -29,3 +29,28 @@ If all weights started positive (e.g., range [0, 1)), the network could take lon
 # Sigmoid Func -> (1/1+e^-x) -> Apply this to weighted sum to get an outcome between 0 and 1 . This is how to calculate the output 
 
 # Output[Training output] - y - shape(4,1) matrix , one output for 4 rows of training examples 
+
+
+## TRAINING PROCESS
+1. Calculate the output by using sigmoid func on the weighted sum of inputs and weights
+2. Cal error by subtracting the calculated output from actual output 
+3. Update the weights depending on severeness of the error
+4. Repeat the process for 10,000 iterations
+
+# By how much to update the weights
+ERROR WEIGHTED DERIVATIVES 
+Weights adjust by = error.input.(gradient of sigmoid func[Output])
+
+The adjustment we make to the weights should be proportional to the size of errors.
+
+Its also proportional to outputs
+If the output is large that means the weight was heavy , that means the neuron was pretty confident in its prediction. We don't need to adjust that kind of weights 
+
+If the output was small , that means the weights were small and hence the neuron was less confident , adjust these weights more . 
+
+Adjustment is also proportional to the inputs too. Inouts are 0 or 1. 
+
+
+
+
+
