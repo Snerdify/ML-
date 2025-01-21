@@ -1,0 +1,12 @@
+# Boston Housing - Columns(features information)
+
+PTRATIO : Pupil-teacher ratio by town. Lower values typically indicate better
+ educational facilities, which is a significant factor for families when choosing a home
+
+RM: Average number of rooms per dwelling. More rooms typically indicate more 
+ spacious accommodation.
+
+LSTAT - % lower status of the population
+
+MEDV - Median value of owner-occupied homes in $1000's
+
