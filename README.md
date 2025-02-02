@@ -38,3 +38,11 @@ Data Mining
 
 Sequential Modelling
 predictive models 
+
+Q and A:
+1. Why are regularization techniques useful in generational models 
+- Prevent overfitting and improve model's ability to generalize to new data 
+- dropout -> Disables some neurons during training , focrcing model to rely on mutiple features 
+
+- weight decay -> Penalizes large weights - ensuring simpler and more general features are learned 
+- spectral normalization -> 

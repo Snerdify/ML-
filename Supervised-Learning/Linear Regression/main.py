@@ -49,11 +49,15 @@ L=0.0001
 epochs = 300
 
 for i in range(epochs):
+    if 1%50==0:
+        print(f"Epochs : {i}")
     m_new , b_new  = gradient_descent(m,b,data,L)
 
 print(m_new , b_new)  # 1.3553374233128836 0.2061349693251534
 
 plt.scatter(data.RM , data.MEDV, color ="black")  # scatter plot of data points
+# plot the line of best fit
+
 
 
 
